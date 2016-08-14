@@ -1,0 +1,21 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "COMPONENTS";
+    
+}
+
+<h2>COMPONENTS</h2>
+<div id="myDiv"></div>
+<script>
+
+    var MyCom = React.createClass({
+        render: function() {
+
+            return React.createElement('h1', null, 'hi Samer');
+        }
+    });
+
+    ReactDOM.render(React.createElement(MyCom, null), document.getElementById('myDiv'));
+
+</script>

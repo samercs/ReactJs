@@ -1,0 +1,20 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "PROPS";
+
+}
+
+<h2>PROPS</h2>
+<div id="myDiv"></div>
+<script>
+
+    var MyCom = React.createClass({
+        render: function() {
+            return React.createElement('h1', null, 'hi ' + this.props.name);
+        }
+    });
+
+    ReactDOM.render(React.createElement(MyCom, {name: 'samer alkhatib'}), document.getElementById('myDiv'));
+
+</script>

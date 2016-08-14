@@ -1,0 +1,25 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "STATE";
+    
+}
+
+<h2>STATE</h2>
+<div id="myDiv"></div>
+<script>
+
+    var MyCom = React.createClass({
+        getInitialState: function () {
+          return {
+              count: 5
+          }  
+        },
+        render: function () {
+            return React.createElement('h1', null, 'hi the count is: ' + this.state.count);
+        }
+    });
+
+    ReactDOM.render(React.createElement(MyCom), document.getElementById('myDiv'));
+
+</script>

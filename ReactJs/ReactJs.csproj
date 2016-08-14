@@ -170,6 +170,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ReactJsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -197,6 +198,14 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\ReactJs\react-dom-server.js" />
+    <Content Include="Scripts\ReactJs\react-dom-server.min.js" />
+    <Content Include="Scripts\ReactJs\react-dom.js" />
+    <Content Include="Scripts\ReactJs\react-dom.min.js" />
+    <Content Include="Scripts\ReactJs\react-with-addons.js" />
+    <Content Include="Scripts\ReactJs\react-with-addons.min.js" />
+    <Content Include="Scripts\ReactJs\react.js" />
+    <Content Include="Scripts\ReactJs\react.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
@@ -234,6 +243,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\ReactJs\Index.cshtml" />
+    <Content Include="Views\ReactJs\Component.cshtml" />
+    <Content Include="Views\ReactJs\Props.cshtml" />
+    <Content Include="Views\ReactJs\State.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
