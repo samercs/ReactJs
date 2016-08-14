@@ -247,6 +247,7 @@
     <Content Include="Views\ReactJs\Component.cshtml" />
     <Content Include="Views\ReactJs\Props.cshtml" />
     <Content Include="Views\ReactJs\State.cshtml" />
+    <Content Include="Views\ReactJs\Event.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

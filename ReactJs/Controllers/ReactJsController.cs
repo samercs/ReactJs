@@ -28,6 +28,11 @@ namespace ReactJs.Controllers
         {
             return View();
         }
-        
+
+        public ActionResult Event()
+        {
+            return View();
+        }
+
     }
 }

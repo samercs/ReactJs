@@ -7,7 +7,7 @@
 
 <h2>STATE</h2>
 <div id="myDiv"></div>
-<script>
+<script type="text/babel">
 
     var MyCom = React.createClass({
         getInitialState: function () {
@@ -16,7 +16,7 @@
           }  
         },
         render: function () {
-            return React.createElement('h1', null, 'hi the count is: ' + this.state.count);
+            return (<h1>the count is: {this.state.count}</h1>);
         }
     });
 
